@@ -1,0 +1,6 @@
+Compiled vs Interpreted vs Natural (human) language
+
+IDE (integrated development environment)
+
+Programming style -> writing readable code 
+
