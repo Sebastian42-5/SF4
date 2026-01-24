@@ -1,0 +1,21 @@
+1. What does staging mean and why is it useful?
+
+
+2. Why is a merge request useful in team projects?
+
+3. What could go wrong if everyone pushes directly to main? 
+
+If everyone pushes into the same branch, there might be merge conflicts 
+that get created, specially if mutliple people modify the same file within 
+that branch 
+
+4. Name 2 programming topics you personally want to strengthen for this course
+or for your project (example: testing, API calls, async programming, database access,
+clean code, etc.)
+
+
+
+5. Write a final reflection about the lab or project. For example, what problem 
+did you have and how did you solve it? What other topics do you think you will 
+need reinforcement for?
+

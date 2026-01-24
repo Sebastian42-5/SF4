@@ -4,3 +4,26 @@ IDE (integrated development environment)
 
 Programming style -> writing readable code 
 
+bug -> mistake in program 
+
+errors: syntax, compiler error (error during translation)
+
+debugging 
+ 
+PyCharm, Spyder, VS Code, Jupyter, Replit -> Tools / IDEs to wrote and run Python code
+
+APIs:
+
+NASA open APIs
+PubChem 
+
+Kaggle (CSV)
+
+Generation of data (Monte Carlo simulations)
+
+Visulization of results 
+
+Python, HTML, CSS, JS
+
+Git fetch, git merge, git push
+

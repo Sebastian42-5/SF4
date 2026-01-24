@@ -1,0 +1,107 @@
+simple robotic arm simulator 
+
+3D simulation where you can create simple rotating joints and rectangles for each 
+section of the arm that would rotate 
+
+You can adjust the torque of the joints to adjust the angular speed 
+
+You can adjust the length of each section of the robot 
+
+You can select gripper types (2-jaw, 3-jaw, side plate gripper, etc)
+
+Gripping speed 
+
+We would have to use ThreeJS to create the 3D environment 
+Physics JS 
+    Matter.js
+
+PyBullet
+
+You can also create objects can can be picked 
+
+Pinocchio, Pybotics, Pygame 
+
+
+The idea: 
+
+Robot arm trainer with AI 
+
+NVIDIA 
+
+Visualizer of the data that we trained 
+
+linear regression 
+
+Matplotlib, Pandas
+
+It would display the data formed by the model 
+
+-> 
+
+We would use 
+
+parse the ai data 
+
+prob and stats part of the data anyalysis 
+
+Show the data with the arm simulator. Most prob and stats and mechanics (to show the robot moving with the data)
+
+Robot simulation trainer 
+
+tech stack -> 
+
+PyTorch, Unity, Pybotics, C#, Flask, JS (event listener)
+
+training environment
+
+Hitbox 
+
+Magnetic gripper, it would automatically pick up the block 
+
+Time, efficiency, power, battery 
+
+Exponential graph, type of model,
+
+unsupervised learning 
+
+Track distance from point 
+
+Power usage, distance and we would reward the model with how well it adapts to the constraints
+
+search for cloud vram usage to run the model
+
+unity has no mesh 
+
+original rectangle 
+
+The structural customization 
+
+We would be able to change the start and end block to change 
+
+
+AURA -> Automated Unity Robot Analysis 
+
+Trained AI 
+
+weights, we would show the results of the training 
+
+Mutation might go the wrong way 
+
+We would train the weights 
+
+The data would be exported into CSV files 
+
+reinforcement learning 
+
+WebGL for Unity 
+
+We won't actually train the data we will use already trained data 
+
+
+
+
+
+
+
+
+
