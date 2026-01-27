@@ -1,0 +1,67 @@
+Robotics 
+- inverse kinematics
+- Data vizualization
+
+Unity WebGL 
+
+.csv 
+
+Joints with torque -> we translate the force into energy consumption 
+
+Unity ML agents 
+
+how to translate torque into energy consumption 
+
+live variables to csv c# 
+
+Unity force simulator for joints
+
+
+
+Model trainer
+
+Unity force simulator for joints
+
+Six degrees of freedom 
+
+What is gonna be the design of the robotic arm?
+
+
+Source that could be useful for energy consumption 
+
+https://link.springer.com/article/10.1007/s00170-024-13496-w
+
+parse csv files using Javascript 
+
+Formula to use to find the 
+
+Energy consumed = integral torque (t) * angular velocity of joint (t) / n  dt 
+
+Power = torque * angular velocity 
+
+angular velocity 
+
+How to calculate system efficiency? 
+
+energy output 
+
+How to implement the formulas into the training agent?
+
+training script 
+
+Robot agent, robot arm controller 
+
+
+
+parameters: 
+
+time, box position, rotation of joint 
+
+
+
+
+
+
+
+
+

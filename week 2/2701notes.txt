@@ -1,0 +1,79 @@
+Scientific Reference 
+
+Gold sources 
+
+peer review journal papers (IEEE)
+peer reviewed conference proceedings (IEEE)
+
+Silver sources 
+
+Textboks
+University-level academic materials 
+
+Bronze sources 
+
+Technical documentation (MDN)
+White paper -> Authoritative reports, published by companies 
+
+Avoid -> 
+
+Blog posts 
+Forum amnd social platforms
+Chat GPT
+
+At least one gold/silver reference per team member
+
+You can search in open access journals 
+
+Research serach engines 
+
+google scholar
+Semantic Scholar 
+arXiv.org 
+
+Scientific concept, data source, algorithm.
+Use keywords (use AND OR) perform a search 
+Refine keywords/prompts 
+
+
+How your reference will contribute for the project
+ • List of top results • Refined keywords/prompts • Etc.
+
+Discard opinion papers, personal experience papers, PHD level papers 
+
+In general, in the past 5-10 years 
+
+if it's a foundational paper, even if it's old, it could be accepted 
+
+Title, abstract and introduction 
+section and sub-section headings 
+
+
+Using AI Tools 
+
+AI is a tool not an author 
+
+Justify the need for using it 
+
+Cite it in your code (as comments) and in your report 
+
+
+Github library licenses:
+
+MIT / Apache 
+GPL (project should also be released as a open source)
+No License (cannot use it)
+
+prioritize the MIT / Apache libraries 
+
+
+You must protect user data 
+Use environement variables (.env)
+
+Do not collect private data if you don't need it for scientiifc claculation
+
+DO NOT USE PII IN LLM PROMPTS!
+
+use encryption
+NEVER commit (API keys, DB passwords). use .env 
+
