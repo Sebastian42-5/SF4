@@ -1,0 +1,20 @@
+Energy consumption in Robotics: A simplified modeling approach. 
+(2024, 05 Nov.). https://arxiv.org/html/2411.03194v1 
+
+Reflection on the pertinence of the reference: 
+
+This reference will contribute to the project, because our goal of the project is 
+to visualize a robotic arm where the mechanical energy consumption is optimized as much 
+as possible. In order to do this, we would use reinforcement learning and use set 
+parameters to reward the AI. The power consumption would be one of the parameters that the raw 
+data would be built on and then presented. Therefore, understanding the formula of torque 
+to find the mechanical power of a robotic using the sum of its joints is essential 
+to get viable results and curate the data as much as possible to not have 5 million rows 
+of data in our CSV. We have to filter the trials of the AI by those set parameters
+during the learning process to be able to optimize the movement trials and also to be able 
+to do vector integration in our Unity simulation to show how the data was built. For 
+example, we would have to show the velocity and the torque vectors visually to understand
+the different values that we got for the training on the website. Using the concepts
+of inertial dynamics and the other concepts and formulas of the reference would allow 
+the logic of the implementation of the joints movements to work. These formulas would have
+to be integrated using C#. 

@@ -57,6 +57,14 @@ parameters:
 
 time, box position, rotation of joint 
 
+data parsing? 
+
+
+Ideally we want the arctan graph to show the progress of the AI
+
+Backwards propagation to put the AI in the right direction 
+
+
 
 
 
