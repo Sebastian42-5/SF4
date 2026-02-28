@@ -1,21 +1,46 @@
 1. What does staging mean and why is it useful?
 
+Staging means to have a control on which files and specific changes you can to commit by doing git add to a specific file 
+or folder to prepare to commit. You could also stage all the changes of the repository with git add . . Staging allows you to 
+review the changes the changes that were made in a repository before creating any commits. It also allows you to break an otherwise
+big commit into smaller commits by staging files separately. This can allow you to commit near complete parts of the code while leaving 
+the more incomplete parts to later commits. 
 
 2. Why is a merge request useful in team projects?
 
+Merge requests can be useful in team projects because it quickly allows the other members of the team to look at the code made to 
+implement a specific feature of the project and to comment on the changed code if there are any problems with it. It allows the other teammates 
+to review the code to find bugs and to facilitate the process of version controlling during the project. 
+
 3. What could go wrong if everyone pushes directly to main? 
 
-If everyone pushes into the same branch, there might be merge conflicts 
-that get created, specially if mutliple people modify the same file within 
-that branch 
+If everyone pushes into the same branch, there might be merge conflicts that get created, specially if multiple people
+modify the same file within that branch, since if there are many versions of a same line within a file, Git doesn't know which line
+to keep, which makes a manual merge necessary. Also, these simultaneous pushes could break the project, since main is the topmost 
+branch of a repository, so it should be protected as much as possible. It would make more sense to fix whatever issues the project
+could have in a branch and then once everything works well, this branch can be merged into main. 
 
 4. Name 2 programming topics you personally want to strengthen for this course
 or for your project (example: testing, API calls, async programming, database access,
 clean code, etc.)
 
+I want to strengthen the topic of working with AI models since we are going to use one to generate the data that 
+we will then visualize with the robotic arm and a graph in the project. I am not too familiar with that topic for now. I also want 
+to strengthen writing clean code, because for the project, I will need to write many lines of code, so improving the cleanliness 
+of my code can allow my teammates to better understand it and help me progress further in my part of the project instead of causing
+confusion with respect to my code. 
 
 
 5. Write a final reflection about the lab or project. For example, what problem 
 did you have and how did you solve it? What other topics do you think you will 
 need reinforcement for?
+
+A small problem that I had during the lab was that I forgot some of the topics of classes in python. For example, I forgot about 
+the syntax to create constructors within a class. I solved it by refreshing myself on classes by looking at my notes from SF2. That way,
+I was able to do the Part C of the lab more accurately. Asides of classes, I will also need reinforcement for debugging methods, 
+like adding breakpoints and using the VSCode tools like the debugger tool. We used it in SF2, but then, I was not too familiar 
+with it even at the end of the semester. I think that this tool can help me find bugs faster and make my workload mroe efficient for teh 
+project and the upcoming labs. 
+
+
 
