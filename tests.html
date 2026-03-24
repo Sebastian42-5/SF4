@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <body>
+    <h2>Mini Tests (no library)</h2>
+    <pre id="out"></pre>
+
+    <script>
+      // code under test
+      function add(a, b) {
+        return a + b;
+      }
+
+      // tiny test helpers
+      const out = document.getElementById("out");
+      function assertEqual(name, actual, expected) {
+        const pass = actual === expected;
+        out.textContent += `${pass ? "PASS" : "FAIL"} - ${name} (got ${actual}, expected ${expected})\n`;
+      }
+
+      // tests
+      assertEqual("add(2,3)", add(2, 3), 5);
+      assertEqual("add(0,0)", add(0, 0), 0);
+    </script>
+  </body>
+</html>
