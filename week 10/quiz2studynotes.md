@@ -37,5 +37,8 @@ Create, read, update, delete
 console, network, elements, sources
 call stack, watch variables in IDE debugger
 
-
+Plotly for interactive visualization
+Data, visuals, narrative
+Obvious comparison, one chart per idea
+Separate saving raw data from plotting code
 
