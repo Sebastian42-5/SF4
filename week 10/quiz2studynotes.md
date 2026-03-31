@@ -5,6 +5,10 @@ Role of issue boards
 Open, doing, review, done
 tasks vs milestones
 
+State machine diagram (different behaviors of machine)
+Data flow diagram (how the data moves within the system)
+System Architecture diagram (tech stack as diagram)
+
 Separation on concerns -> team collaboration
 Presentation layer : frontend
 Business layer : backend
@@ -16,7 +20,7 @@ await fetch, await response.json()
 internal vs external APIs
 store API keys on .env files
 
-Be desciptive with function and variable names
+Be descriptive with function and variable names
 Code documentation
 Group modules in a package with __init__.py files
 object = state + actions
@@ -37,7 +41,7 @@ Create, read, update, delete
 console, network, elements, sources
 call stack, watch variables in IDE debugger
 
-Plotly for interactive visualization
+Plotly for interactive visualization, PyVista for more complex 3d graphs
 Data, visuals, narrative
 Obvious comparison, one chart per idea
 Separate saving raw data from plotting code
